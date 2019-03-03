@@ -1,0 +1,263 @@
+﻿body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:azure;
+   font-size:16px;
+}
+
+nav{
+    display:inline-block;
+    margin:auto;
+    padding:8px;
+}
+
+nav ul{
+    list-style:none;
+}
+
+nav ul li {
+    margin: 5px 2px;
+    text-decoration:none;
+    padding:8px 5px;
+    float:left;
+    width:120px;
+    height:30px;
+    line-height:30px;
+    text-align:center;
+}
+
+nav ul li a{
+    display:block;
+    text-decoration:none;
+    color:#30314d;
+    margin: 0px 2px;
+    text-align:center;
+    vertical-align:middle;
+    border-radius:10px;
+    background-color:lightsteelblue;
+    font-size:20px;
+    padding:10px;
+}
+
+nav ul li a:hover{
+    border-radius:10px;
+    background-color:darkgray;
+    color:azure;
+    
+}
+
+nav ul li ul li{
+    display:none;
+    float:left;
+    margin-left:0px;
+}
+
+
+
+nav ul li:hover ul {
+    display:block;
+    float:left;
+    margin:0px;
+    padding:0px;
+    opacity:.99;
+}
+nav ul li:hover ul li {
+    display:block;
+    float:left;
+    margin-bottom:3px;
+    opacity:.99;  
+    
+}
+
+nav ul li:hover ul li a{
+      
+}
+
+
+header{
+    border-radius:30px;
+    margin:auto;
+    max-width:90%;
+    background:rgba(0,0,0,.85);
+    text-align:center;
+    vertical-align:middle;
+    padding:8px;
+}
+
+footer{
+    background:rgba(0,0,0,.85);
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+    clear:both;
+    text-align:center;
+    vertical-align:middle;
+    padding:8px;
+    border-radius:30px;
+    max-width:60%;
+}
+
+address a{
+    text-decoration:underline;
+    color:azure;
+}
+
+address a:hover{
+    color:lightsteelblue;
+}
+
+#full-screen{
+    z-index:-999;
+    min-height:100%;
+    min-width:1024px;
+    width:100%;
+    height:auto;
+    position:fixed;
+    top:0;
+    left:0;
+}
+
+#logo{
+    font-size:35px;
+    font-weight:bold;
+    display:inline-block;
+    vertical-align:middle;
+    margin-left:25px;
+    color:lightsteelblue;
+}
+
+#pageContent{
+    background:rgba(0,0,0,.85);
+    border-radius:30px;
+    max-width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+    padding:25px;
+}
+
+h2{
+    font-size:26px;
+    font-weight:bold;
+    color:lightsteelblue;
+    text-decoration:underline;
+    margin-left:40px;
+}
+
+h3{
+    font-size:20px;
+    font-weight:bold;
+    color:lightsteelblue;
+    text-decoration:underline;
+    margin-left:20px;
+}
+
+table.home-table {
+    margin:auto;
+    width:90%;
+    padding:10px;
+}
+table.account-table {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+td.account-table{
+    width:25%;
+}
+
+img.home-table-img{
+    border-radius:10px;
+    margin:auto;
+    width:95%;
+    display:block;
+}
+
+td.home-table{
+    width:50%;
+}
+
+table.registration-table {
+    margin:auto;
+    padding:10px;
+}
+
+table.registration-table, td {
+    padding:5px 10px;
+}
+.alignCenter
+{
+    margin: 0 auto ;
+
+}
+
+.statsDetails {
+    float:right;
+    display:inline;
+    
+    overflow:hidden;
+}
+
+.floatRight {
+    float:right;
+    display:inline;
+    overflow:hidden;
+    margin-top:10px;
+    margin-right:290px;
+}
+.floatLeft {
+    float:left;
+    display:inline;
+    overflow:hidden;
+}
+.stayBottom{
+    display:block;
+    
+}
+
+img.kulogo {
+            margin-left:auto;
+            margin-right:auto;
+            width: 246px;
+            height: 134px;
+        }
+
+ul.siteMap{
+    list-style:none;
+}
+ul.siteMap li a{
+  
+    text-decoration:none;
+    color:azure;
+    font-weight:bold;
+    margin: 0px 2px;
+    text-align:center;
+    vertical-align:middle;
+    font-size:20px;
+    padding:10px;
+}
+
+ul.siteMap li a:hover{
+    color:lightsteelblue;   
+}
+
+ul.siteMap li a:visited{
+    color:dodgerblue;
+}
+ul.siteMap li a:visited:hover{
+    color:azure;
+}
+
+table.roster-table {
+    margin:auto;
+    width:90%;
+    padding:10px;
+}
+
+
+td.roster-table-left{
+    width:60%;
+    vertical-align:top;
+}
+td.roster-table-top{
+    padding-bottom:10px;
+}

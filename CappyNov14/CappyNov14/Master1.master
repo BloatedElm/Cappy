@@ -1,0 +1,64 @@
+﻿<%@ Master Language="VB" CodeFile="Master1.master.vb" Inherits="Master1" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="css/master1style.css" rel="stylesheet" />
+    <title>Master1</title>    
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            left: 0;
+            top: -175px;
+        }
+    </style>
+</head>
+<body>
+    <!--image provided by https://www.pexels.com/photo/snow-nature-trees-mountain-89773/ -->
+    <img src="../images/bground.jpg" id="full-screen" class="auto-style1" />
+    <form id="form1" runat="server">
+    <div><!--<li><a href="/Events.aspx">Events</a></li>-->
+        <header>
+            <div id="logo">Kennesaw United</div>
+            <nav>
+                <ul>
+                    <li><a href="/Default.aspx">Home</a></li>
+                    <li><a href="/Register.aspx">Register</a></li>
+                    
+                    <li><a href="/RecTeams.aspx">Teams</a>
+                        <ul>
+                            <li><a href="/RecTeams.aspx">Rec</a></li>
+                            <li><a href="/ClubTeams.aspx">Club</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/ContactUs.aspx">Contact Us</a></li>
+                    <li><a href="AboutUs.aspx">About Us</a></li>
+                    <li><a href="/Login.aspx">Login</a></li>
+                  <!-- <a href="AdminPages/AdminPage.aspx"><asp:Label ID="lblAdmin" runat="server"></asp:Label></a>
+                    <a href="Login.aspx"><asp:Label ID="lblUser" runat="server"></asp:Label></a>
+                   <a href="Register.aspx"><asp:Label ID="lblSignUp" runat="server"></asp:Label></a> -->
+                   
+                    <asp:LoginName ID="LoginName1" runat="server" />
+                </ul>
+
+            </nav>
+
+
+
+        </header>
+        <section id="pageContent">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            </section>
+        <footer>
+<li><a href="/Sitemap.aspx">Sitemap</a></li>          
+             <li> Capstone Group E Project &copy;Fall 2018 </li>
+        </footer>
+    </div>
+    </form>
+</body>
+</html>
